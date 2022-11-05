@@ -71,6 +71,12 @@ function onHttpStart() {
             .login-form h1 {
               padding: 35px 35px 0 35px;
               font-weight: 300;
+              text-align: center;
+            }
+            .login-form h2 {
+              padding: 35px 35px 0 35px;
+              font-weight: 200;
+              text-align: center;
             }
             .login-form .content {
               padding: 35px;
@@ -156,9 +162,14 @@ function onHttpStart() {
             <body">
                 <div class="login-form">
                     <h1>BTN710 Group 1 Artifacts</h1>
+                    <h2>Neil An: Team Leader</h2>
+                    <h2>Tyerelle Toppin: Web Master</h2>
+                    <h2>Alan Sciulli: Report</h2>
+                    <h2>Andrew Donets: Video Presentation</h2>
+                    
                     <div class="content">
                         <ul><a href="/download">Report</a></ul>
-                        <ul><a href="/">Video</a></ul>
+                        <ul><a href="https://web.microsoftstream.com/video/68b0c7d2-d714-4ed6-87cc-f0dac75c9da7">Video</a></ul>
                     </div>
                 </div>
             
