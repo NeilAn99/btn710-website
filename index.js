@@ -166,6 +166,10 @@ function onHttpStart() {
             </html>
     `);
         }
+        else
+        {
+          res.redirect("/");
+        }
     });
   });
   
