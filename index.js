@@ -198,3 +198,5 @@ app.get('/download', function(req, res){
 
   // setup http server to listen on HTTP_PORT
   app.listen(HTTP_PORT, onHttpStart);
+
+  module.exports = app;
