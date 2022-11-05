@@ -1,5 +1,4 @@
-const Sequelize = require('sequelize');
-const { QueryTypes } = require('sequelize');
+
 var express = require("express");
 var app = express();
 var path = require("path");
@@ -20,27 +19,6 @@ bcrypt.hash("btn710@G#", 10).then(hasht=>{ // Hash the password using a Salt tha
     console.log(err); // Show any errors that occurred during the process
 });
 
-// set up sequelize to point to our postgres database
-var sequelize = new Sequelize('aqoqzwdx', 'aqoqzwdx', 'NjkY89I5Rvmp-S-M4sGWW3sOLIDpHvbR', {
-    host: 'peanut.db.elephantsql.com',
-    dialect: 'postgres',
-    port: 5432,
-    dialectOptions: {
-        ssl: { rejectUnauthorized: false }
-    },
-    query: { raw: true }
-});
-
-
-var User = sequelize.define('User', {
-    username: Sequelize.STRING,
-    password: Sequelize.STRING,
-    email: Sequelize.STRING
-});
-
-sequelize.sync().then(function () {
-
-});
 // call this function after the http server starts listening for requests
 function onHttpStart() {
     console.log("Express http server listening on: " + HTTP_PORT);
