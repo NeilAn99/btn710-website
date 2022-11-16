@@ -170,6 +170,7 @@ function onHttpStart() {
                     <div class="content">
                         <ul><a href="/download">Report</a></ul>
                         <ul><a href="https://web.microsoftstream.com/video/68b0c7d2-d714-4ed6-87cc-f0dac75c9da7">Video</a></ul>
+                        <ul><a href="https://web.microsoftstream.com/video/071045a3-2a3d-4c9d-8e66-76c16210a176">Video Patching Addition</a></ul>
                     </div>
                 </div>
             
